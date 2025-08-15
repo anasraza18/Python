@@ -1,6 +1,6 @@
-a = 3
-b = 5
+a = ["ana"]
+b = ["ali"]
 
-for x in range(a):
-    for y in range(b):
-        print(x*y)
+for x in a:
+    for y in b:
+        print(x + y)
